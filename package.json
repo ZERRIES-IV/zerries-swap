@@ -1,0 +1,14 @@
+{
+  "name": "uniswap",
+  "version": "1.0.0",
+  "description": "Swap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "IV",
+  "license": "MIT",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.1.11"
+  }
+}
