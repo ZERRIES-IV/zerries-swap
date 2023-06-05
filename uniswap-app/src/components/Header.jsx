@@ -29,7 +29,7 @@ const Header = () => {
   }, [address])
 
   return (
-    <div className='w-full py-2 flex justify-between max-[468px]:flex-none max-[468px]:grid'>
+    <div className='w-full py-2 pt-9 flex justify-between max-[468px]:flex-none max-[468px]:grid max-[468px]:pt-2'>
       <div className='flex items-center '>
         <img src={UNISWAP} className='h-16' />
         <NavItems />
