@@ -52,7 +52,7 @@ function App() {
   return (
     <WagmiConfig config={wagmiConfig}>
       <RainbowKitProvider chains={chains} theme={myTheme}>
-        <div className='w-full h-screen flex flex-col items-center justify-center bg-[#27292E]'>
+        <div className='w-full h-full flex flex-col items-center justify-center bg-[#27292E]'>
           <Header />
           <SwapComponent />
           {/* <Footer /> */}

@@ -29,15 +29,15 @@ const Header = () => {
   }, [address])
 
   return (
-    <div className='w-full py-2 grid grid-cols-2'>
-      <div className='flex items-center'>
+    <div className='w-full py-2 flex justify-between max-[468px]:flex-none max-[468px]:grid'>
+      <div className='flex items-center '>
         <img src={UNISWAP} className='h-16' />
         <NavItems />
       </div>
-      <div className='flex items-center justify-end'>
+      <div className='flex items-center justify-end max-[468px]:flex-none'>
         <div className='bg-zinc-900 rounded-full mx-6 px-3 py-3 cursor-pointer'>
         <a href="https://venom.network/" target='_blank' rel="noreferrer">
-          <img src="https://venom.network/static/media/venom.16a64f94cf5ab97ccaa7d88c840e3059.svg" width="70px" srcSet="" alt="Venom Logo" />
+          <img src="https://venom.network/static/media/venom.16a64f94cf5ab97ccaa7d88c840e3059.svg" width="70px" srcSet="" alt="Venom" />
         </a>
         </div>
           <ConnectButton className='mx-8' accountStatus={'full'} />
